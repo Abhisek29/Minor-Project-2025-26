@@ -50,12 +50,18 @@ A custom configuration file customyolov12s.yaml was developed for this project. 
 
 The model was trained for *100 epochs* with an SGD optimizer and a batch size of 16.
 
-| Class | Images | Instances | Box (P) | R | mAP50 | mAP50-95 |
-| --- | --- | --- | --- | --- | --- | --- |
-| *All* | *753* | *3852* | *0.974* | *0.959* | *0.979* | *0.614* |
-| falsecopper | 142 | 601 | 0.99 | 0.968 | 0.985 | 0.661 |
-| scratch | 138 | 363 | 0.955 | 0.937 | 0.981 | 0.838 |
-| pinhole | 142 | 488 | 0.974 | 0.982 | 0.984 | 0.517 |
+| Class        | Images | Instances | Box (P) | R       | mAP50   | mAP50-95 |
+| ------------ | ------ | --------- | ------- | ------- | ------- | -------- |
+| *All*        | *753*  | *3852*    | *0.974* | *0.959* | *0.979* | *0.614*  |
+| falsecopper  | 142    | 601       | 0.99    | 0.968   | 0.985   | 0.661    |
+| missinghole  | 98     | 448       | 0.969   | 0.974   | 0.977   | 0.561    |
+| mousebite    | 113    | 503       | 0.988   | 0.964   | 0.987   | 0.664    |
+| opencircuit  | 144    | 555       | 0.971   | 0.959   | 0.979   | 0.554    |
+| pinhole      | 142    | 488       | 0.974   | 0.982   | 0.984   | 0.517    |
+| scratch      | 138    | 363       | 0.955   | 0.937   | 0.981   | 0.838    |
+| shortcircuit | 112    | 395       | 0.967   | 0.954   | 0.977   | 0.562    |
+| spur         | 130    | 499       | 0.983   | 0.934   | 0.962   | 0.556    |
+
 
 ## 💻 Usage
 
