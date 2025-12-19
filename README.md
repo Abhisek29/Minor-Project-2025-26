@@ -63,7 +63,7 @@ The model was trained for *100 epochs* with an SGD optimizer and a batch size of
 | spur         | 130    | 499       | 0.983   | 0.934   | 0.962   | 0.556    |
 
 
-## 💻 Usage
+## Usage
 
 1. *Clone the repository*:
 bash
