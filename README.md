@@ -1,4 +1,4 @@
-# YOLO-PCB: Defect Detection on Printed Circuit Boards
+# PCB Defect Inspection Using YOLO with Multi-Class Fault Localization
 
 This repository contains a specialized implementation for detecting defects on Printed Circuit Boards (PCBs) using a custom *YOLO* architecture (configured as YOLOv12s) powered by the ultralytics framework. The model is trained on a specific PCB dataset to identify common manufacturing errors such as short circuits, missing holes, and scratches.
 
